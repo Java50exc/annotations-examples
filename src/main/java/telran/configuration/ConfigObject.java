@@ -9,7 +9,7 @@ public class ConfigObject {
     long longNumber;
     @Value("app.str.prop:Hello")
     String str;
-    @Value("app.fnumber.app:10.5")
+    @Value("app.fnumber")
     float floatNumber;
     @Value("app.dnumber.app:0.123")
     double doubleNumber;
